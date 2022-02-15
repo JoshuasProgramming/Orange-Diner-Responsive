@@ -73,7 +73,7 @@
     }
 }
 
-@media(min-width:280px) and (max-width:912px){
+@media(min-width:280px) and (max-width:915px){
     .top-2{
         display: flex;
         justify-content: center;
@@ -85,7 +85,8 @@
             align-items:center;
             flex-direction: column;
             .home-header{
-                font-size: 18vw;
+                font-size: 16vw;
+                font-size: 13vh;
             }  
         }
         button{
@@ -100,7 +101,8 @@
             margin:0px 0px 0px 0px;
 
             a{
-                font-size:6vw;
+                font-size:8vw;
+                font-size:8vh;
             }
         }
         
@@ -160,10 +162,10 @@
             
             li{
                 list-style: none;
-                margin:0px 5px;
                 a{
                     text-decoration: none;
-                    font-size: 25px;
+                    font-size: 22px;
+                    margin:5px;
                     font-family: 'Lobster', cursive;
                     color: black;
 
