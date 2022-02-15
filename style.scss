@@ -95,7 +95,7 @@
             // font-size: 38px;
             
             font-family: 'Lobster', cursive;
-            background:rgb(255, 193, 77);
+            background:#ffc14d;
             border: 1px solid white;
             opacity: 100%;
             margin:0px 0px 0px 0px;
@@ -111,8 +111,6 @@
     
 }
 
-
-
 .top{
     display: flex;
     align-items: center;
@@ -120,7 +118,7 @@
     width:100%;
     background-color: rgb(255, 193, 77);
     color:whitesmoke;
-    box-shadow: 1px 1px 6px rgb(255, 217, 0);
+    box-shadow: 1px 1px 6px #ffd900;
     position: fixed;
     z-index:999;
 
