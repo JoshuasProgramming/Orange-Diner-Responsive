@@ -45,8 +45,8 @@
 
         .our-story-underneath-header-text{
             color:snow;
-            font-size: 4vw;
-            font-size:4vh;
+            font-size: 6vw;
+            font-size:5vh;
             font-family: 'Staatliches', cursive;
             text-shadow: 1px 1px 9px black;
             background: rgb(255, 193, 77);
@@ -85,6 +85,7 @@
     }
 }
 
+//Mobiles and Tablets
 @media(min-width:280px) and (max-width:915px){
     .top-2{
         display: flex;
