@@ -71,6 +71,67 @@
   margin: 0px 0px 0px 0px;
 }
 
+.top-2 .top-2-text .login-container {
+  max-width: 300%;
+  min-height: 200px;
+  background-color: white;
+  margin: auto auto;
+}
+
+.top-2 .top-2-text .register-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 250px;
+  width: calc(100% - 50px);
+  max-height: 4500px;
+  margin: 10px 0px;
+}
+
+.top-2 .top-2-text .register-container .register-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: first baseline;
+      -ms-flex-pack: first baseline;
+          justify-content: first baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 12px 15px;
+  max-width: 51vw;
+  width: calc(100% - 20px);
+  max-height: 50vh;
+  position: absolute;
+  -webkit-box-shadow: 1px 1px 11px black;
+          box-shadow: 1px 1px 11px black;
+  border-radius: 25px;
+  background-color: #ffc14d;
+  border-radius: 25px;
+}
+
+.top-2 .top-2-text .register-container .register-form input {
+  font-size: 2.5vw;
+  outline: none;
+}
+
+.top-2 .top-2-text .register-container input {
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  text-align: center;
+}
+
 .top-2 button {
   color: black;
   font-size: 30px;
@@ -132,6 +193,52 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .top-2 .top-2-text .register-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 250px;
+    width: calc(100% - 50px);
+    margin: 10px 0px;
+  }
+  .top-2 .top-2-text .register-container .register-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 12px 15px;
+    max-width: 51vw;
+    width: calc(100% - 20px);
+    min-height: 50vh;
+    position: absolute;
+    -webkit-box-shadow: 1px 1px 11px black;
+            box-shadow: 1px 1px 11px black;
+    border-radius: 25px;
+    background-color: #ffc14d;
+    border-radius: 25px;
+    margin: 10px;
+  }
+  .top-2 .top-2-text .register-container .register-form input {
+    font-size: 4vw;
+    font-size: 5.5vh;
+    margin: 2px;
+    outline: none;
   }
   .top-2 .top-2-text .home-header {
     font-size: 16vw;
