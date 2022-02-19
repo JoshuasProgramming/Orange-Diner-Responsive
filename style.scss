@@ -7,6 +7,69 @@
     font-family: 'Staatliches', cursive;
 }
 
+.wrapper{
+    width:1200px;
+    margin:auto;
+
+    background-image: url(images/image1.jpg);
+    background-size:cover;
+    min-height: 100%;
+    width:100%;
+    float: left;
+    height: 200vh;
+    position: relative;
+}
+
+main{
+    display:grid; 
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); 
+    grid-gap:20px;
+}
+
+@media screen and (max-width:900px){
+    main{
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    }
+}
+
+.recipes-section img{
+    width:100%;
+    display:block;
+    border-radius: 5px;
+    margin:100px 0px 0px 0px;
+}
+
+section div a {
+    background: rgb(255, 193, 77);
+    margin: 10px 0px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+section div a:hover {
+    background: rgb(255, 193, 77); 
+    transition: background ease-in-out 300ms;   
+}
+
+section .recipes-h1, .recipes-section p{
+    text-align: center;
+    color: black;
+    font-size:25px;
+    background-color: #ffc14d;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #0a0a0a;
+    color: rgb(223, 222, 222);
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
 .top-2{
     background-image: url(images/image1.jpg);
     background-size:cover;
@@ -140,6 +203,38 @@
     }
 }
 
+.recipes-container{
+    background-image: url(images/image1.jpg);
+    background-size:cover;
+    min-height: 100%;
+    width:100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    .top-2-text-recipes{
+        max-width:900%;
+        width: calc(100% - 40px);
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        flex-direction:row;
+        
+        .recipe{
+            background: red;
+            width:300px;
+            min-height:450px;
+            margin:10px;
+            border-radius:25px;
+        }
+    }
+}
+
 //Mobiles and Tablets
 @media(min-width:280px) and (max-width:915px){
     .top-2{
@@ -168,29 +263,15 @@
                 // font-size: 20px;
     
                 .register-form{
-                    display: flex;
-                    justify-content:center;
-                    align-items:center;
+                    width:260px;
+                    height:375px;
+                    border-radius: 15px;
+
+                    display:flex;
+                    align-items: center;
+                    justify-content:space-evenly;
                     flex-direction: column;
-                    padding: 12px 15px;
-                    max-width:51vw;
-                    width:calc(100% - 20px);
-                    min-height:50vh;
-                    position:absolute;
                     
-                    box-shadow: 1px 1px 11px black;
-                    border-radius: 25px;
-                    background-color: #ffc14d;
-                    border-radius: 25px;
-                    margin:10px;
-                    
-                    
-                    input{
-                        font-size: 4vw;
-                        font-size:5.5vh;
-                        margin:2px;
-                        outline: none;
-                    }
                 }
             }
 
